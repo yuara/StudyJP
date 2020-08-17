@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1 class="mt-4">{{ level }}
+    Voca Quizzes</h1>
+  <div class="container">
+    <div class="list-group">
+      {% for voca in object_list %}
+        <div class="card mb-3">
+          <button class="btn btn-block" id="vocaQuizToggle">
+            <h5>
+              <ul class="list_inline d-flex">
+                <li class="list-inline-item">
+                  <small>{{ voca.kana }}</small><br>
+                  <h3>{{ voca.kanji }}</h3>
+                </li>
+                <li class="list-inline-item">
+                  <small>{{ voca.pos }}</small>
+                </li>
+              </ul>
+            </h5>
+          </button>
+          <!-- card-header -->
+          <div class="card-body" id="vocaQuizAns">
+            <ul>
+              <h3>{{ voca.meaning }}</h3>
+            </ul>
+            <hr>
+            {% if voca.en_example %}
+            <ul>
+              <h5>Example</h5>
+              <ul type="none">
+                <li>{{ voca.en_example }}</li>
+                <li>{{ voca.ja_example }}</li>
+              </ul>
+            </ul>
+            {% else %}
+            {% endif %}
+          </div>
+          <!-- card-body -->
+        </div>
+        {% include "quiz/snippets/pagination.html" %}
+      {% endfor %}
+    </div>
+  </div>
+
+{% endblock %}

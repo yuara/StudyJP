@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="mt-4">Vocaburaly <small>(N3~N5)</small></h1>
+  <table id="dataTable" class="table table-striped table-bordered" style="width:100%">
+    <thead>
+      <tr>
+        <th>Kanji</th>
+        <th>Kana</th>
+        <th>pos</th>
+        <th>Meaning</th>
+        <th>Example(en)</th>
+        <th>Example(ja)</th>
+        <th>Level</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for voca in object_list %}
+      <tr>
+        <td>{{ voca.kanji }}</td>
+        <td>{{ voca.kana }}</td>
+        <td>{{ voca.pos }}</td>
+        <td>{{ voca.meaning }}</td>
+        <td>{{ voca.en_example}}</td>
+        <td>{{ voca.ja_example}}</td>
+        <td>{{ voca.level }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+
+{% endblock %}
