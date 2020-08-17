@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <h1>{{ user.username }} are now logged in!</h1>
+  <h2><a href="{% url 'quiz:index' %}">Voca!</a></h2>
+
+</div>
+
+{% endblock %}
