@@ -1,4 +1,4 @@
-Kanji,Kana,POS,Meaning,Example
+Kanji,Kana,POS,Meaning,Example,Example_Kana
 生,なま,"adj-no,adj-na,pref",raw; uncooked; fresh; natural,"
 "
 のんびり,のんびり,"adv,adv-to,vs",carefree; at leisure,"
@@ -19,30 +19,30 @@ Kanji,Kana,POS,Meaning,Example
 "
 不足,ふそく,"adj-na,n,vs",insufficiency; lack; shortage,"
 "
-世の中,よのなか,n,society; the world,"世の中に色々な人がいる
-There are many different kinds of people in the world."
+世の中,よのなか,n,society; the world,"世の中には色々な人がいる
+There are many different kinds of people in the world.",よのなかにはいろいろなひとがいる
 予算,よさん,"n,vs,adj-no",estimate; budget,"
 "
 事件,じけん,n,event; incident; case (usually negative),"事件の原因
-cause of the incident"
+cause of the incident",じけんのげんいん
 人間,にんげん,n,human being; person,"
 "
 人類,じんるい,n,mankind; humanity,"
 "
 以前,いぜん,"n-adv,n",since; before; previous,"以前に伝えた理由
-the reason previously stated"
+the reason previously stated",いぜんにつたえたりゆう
 休憩,きゅうけい,"n,vs",rest; break,"
 "
 休暇,きゅうか,n,holiday; day off,"有給休暇
-paid vacation"
+paid vacation",ゆうきゅうきゅうか
 会員,かいいん,n,member; the membership,"
 "
 伝統,でんとう,n,tradition; convention,"伝統的
-traditional"
+traditional",でんとうてき
 伸びる,のびる,vi,to stretch; to extend; to grow,"髪の毛が伸びる
-"
+",The hair grows,かみのけがのびる
 似合う,にあう,vi,to suit; to match,"あの服は彼に似合う。
-Those clothes suit him."
+Those clothes suit him.",あのふくはかれににあう
 住民,じゅうみん,n,inhabitant; resident,"
 "
 作品,さくひん,n,"work; production (book, film, etc.)","
@@ -50,43 +50,43 @@ Those clothes suit him."
 作業,さぎょう,"n,vs",work; operation; manufacturing,"
 "
 保存,ほぞん,"n,vs",saving; storage; maintenance,"ワードファイルを保存する
-to save a word document (on the computer)"
+to save a word document (on the computer)",わーどふぁいるをほぞんする
 信頼,しんらい,"n,vs",reliance; confidence,"信頼性
-reliability"
+reliability",しんらいせい
 俳優,はいゆう,"n,adj-no",actor,"
 "
 優勝,ゆうしょう,"n,vs",overall victory; championship,"
 "
 優秀,ゆうしゅう,"adj-na,n",superiority; excellence,"優秀な生徒
-an excellent student"
+an excellent student",ゆうしゅうなせいと
 先日,せんじつ,"n-adv,n",the other day; a few days ago,"
 "
 全て,すべて,"n,adj-no,adv",everything; all; entirely; completely,"
 "
 全体,ぜんたい,"n-adv,n",whole; entirety,"会社全体が参加したイベント
-the event in which the whole company participated"
+the event in which the whole company participated",かいしゃぜんたいがさんかしたいべんと
 全員,ぜんいん,"n-adv,n",all members; everyone,"
 "
-共通,きょうつう,"adj-no,adj-na,n,vs",common; shared,"この寮のキチンは共通のエリアです。
-This dorm's kitchen is a shared area."
+共通,きょうつう,"adj-no,adj-na,n,vs",common; shared,"この寮のキッチンは共通のエリアです。
+This dorm's kitchen is a shared area.",このりょうのきっちんはきょうつうのえりあです
 内容,ないよう,n,contents; substance; details,"
 "
 冗談,じょうだん,"n,adj-no",joke,"冗談を言う
-to tell a joke"
+to tell a joke",じょうだんをいう
 分,ぶん,"n,suf,pref",part; segment; share,"家事について自分の分がもうできました。
-As for housework, I already finished my part."
+As for housework, I already finished my part.",かじについてじぶんのぶんがもうできました
 ～分の～,～ぶんの～,n,expresses a fraction/portion where the first ～ is the denominator,"4分の1
 1/4"
 分野,ぶんや,n,field; area; realm,"専門分野
-area of specialty"
+area of specialty",せんもんぶんや
 刑事,けいじ,n,(police) detective,"
 "
 到着,とうちゃく,"n,vs,adj-no",arrival,"電車が駅に到着しました。
-The train arrived at the station."
+The train arrived at the station.",でんしゃがえきにとうちゃくしました
 努力,どりょく,"n,vs",effort; exertion; hard work,"
 "
 効果,こうか,"n,adj-no",effect; efficacy,"薬の効果
-efficacy/effects of medicine"
+efficacy/effects of medicine",くすりのこうか
 協力,きょうりょく,"n,vs,adj-no",cooperation; collaboration,"
 "
 単語,たんご,"n,adj-no",word; vocabulary,"
@@ -94,7 +94,7 @@ efficacy/effects of medicine"
 占める,しめる,vt,to occupy; to hold; to comprise; to make up,"
 "
 印象,いんしょう,"n,vs",impression,"印象を与える
-to make an impression"
+to make an impression",いんしょうをあたえる
 友人,ゆうじん,n,friend,"
 "
 双子,ふたご,n,twins,"
@@ -119,24 +119,24 @@ to make an impression"
 "
 地方,ちほう,"n,adj-no",district; region | countryside; rural area,"
 "
-報告,ほうこく,"n,vs",report; information,"毎週に進歩を報告します。
-I report my progress every week."
+報告,ほうこく,"n,vs",report; information,"毎週、進捗を報告します。
+I report my progress every week.",まいしゅう、しんちょくをほうこくします
 変更,へんこう,"n,vs",change; alteration,"
 "
 夜中,よなか,"n-adv,n",middle of the night,"
 "
 夢中,むちゅう,"adj-na,n,adj-no",daze; engrossment; obsessed with; hooked on,"ジャズに夢中です。
-I am obsessed with Jazz."
+I am obsessed with Jazz.",じゃずにむちゅうです
 大統領,だいとうりょう,n,president (of a country),"
 "
 太陽,たいよう,n,sun,"
 "
 失う,うしなう,vt,to lose,"意識を失う
-to lose conciousness"
+to lose conciousness",いしきをうしなう
 契約,けいやく,"n,vs",contract,"
 "
-奥,おく,n,inside; interior; depths; back,"クロゼットの奥に布団がありました。
-The futon was at the back of the closet."
+奥,おく,n,inside; interior; depths; back,"クローゼットの奥に布団がありました。
+The futon was at the back of the closet.",くろーぜっとのおくにふとんがありました
 好み,このみ,n,liking; taste,"
 "
 委員,いいん,n,committee member,"
@@ -146,11 +146,11 @@ The futon was at the back of the closet."
 孫,まご,n,grandchild,"
 "
 守る,まもる,vt,to protect; to guard; to uphold; to follow,"人を守る
-to protect a person"
+to protect a person",ひとをまもる
 完成,かんせい,"n,vs",completion; accomplishment,"レポートを完成しました。
-I finished the report."
+I finished the report.",れぽーとをかんせいしました
 実際,じっさい,"adj-no,adv,n",practicality; reality; actual,"実際の経験
-actual experience"
+actual experience",じっさいのけいけん
 家事,かじ,n,housework; chores,"
 "
 家賃,やちん,n,rent,"
@@ -158,17 +158,17 @@ actual experience"
 宿泊,しゅくはく,"n,vs",lodging,"
 "
 就職,しゅうしょく,"n,vs",finding employment,"就職活動
-job hunting"
+job hunting",しゅうしょくかつどう
 希望,きぼう,"n,vs",request; hope; aspiration,"
 "
 常識,じょうしき,n,common sense,"
 "
 幅,はば,n,width; range; gap; difference,"幅が広い
-have a large range"
+have a large range",はばがひろい
 平和,へいわ,"adj-na,n",peace; harmony,"
 "
 平均,へいきん,"n,vs",average; mean; balance; equilibrium,"平均年齢
-average age"
+average age",へいきんねんれい
 年月,としつき、ねんげつ,n,months and years,"
 "
 年齢,ねんれい,n,age; years,"
@@ -176,29 +176,29 @@ average age"
 広がる,ひろがる,vi,to spread (out); to extend,"
 "
 建設,けんせつ,"n,vs",construction; establishment,"建物の建設が始まった。
-Construction of the building started."
+Construction of the building started.",たてもののけんせつがはじまった
 影響,えいきょう,"n,vs",influence; effect,"私に影響がない。
-There is no effect on me."
+There is no effect on me.",わたしにえいきょうがない
 役,やく,n,use; service; role,"お客様を案内する役
-the role of guiding (giving directions to) customers"
+the role of guiding (giving directions to) customers",おきゃくさまをあんないするやく
 得る,える,vt,to get; to obtain; to win,"許可を得る
-to obtain permission"
+to obtain permission",きょかをえる
 得意,とくい,"n,adj-no,adj-na",one's strong point; one's forte,"
 "
 徹夜,てつや,"n,vs,adj-no",all night; sleepless night,"
 "
 快適,かいてき,"adj-na,n",pleasant; comfortable,"24°Cは快適な温度です。
-24C is a comfortable temperature."
+24C is a comfortable temperature.",24°Cはかいてきなおんどです
 急に,きゅうに,adv,quickly; suddenly,"
 "
 性格,せいかく,n,character; personality,"
 "
 悩む,なやむ,vi,to be worried; to be uncertain,"どこに行くか悩んでいる。
-I am uncertain about where to go."
+I am uncertain about where to go.",どこにいくかなやんでいる
 悪口,わるくち、あっこう,"n,vs",insult; bad mouth,"
 "
 情報,じょうほう,n,information; news; data,"新しい情報があれば教えてください。
-If there is any new news, please let me know."
+If there is any new news, please let me know.",くわしいじょうほうがあればおしえてください
 想像,そうぞう,"n,vs,adj-no",imagination; guess,"
 "
 愛情,あいじょう,"n,adj-no",love; affection,"
@@ -220,7 +220,7 @@ If there is any new news, please let me know."
 投票,とうひょう,"n,vs,adj-no",voting,"
 "
 抜ける,ぬける,vi,to come out; to fall out; to be omitted,"髪の毛が抜けた
-"
+",I lost my hair,かみのけがぬけた
 抱く,いだく、だく,vt,to embrace; to hug,"
 "
 指導,しどう,"n,vs",guidance; instruction,"
@@ -241,10 +241,10 @@ If there is any new news, please let me know."
 "
 数（かず）,かず,n,number; amount,"
 "
-数（すう）,すう,"pref | n,n-suf",several; a few | quantity; amount,"鞄に本は数冊入っています。
-A few books are in the bag."
+数（すう）,すう,"pref | n,n-suf",several; a few | quantity; amount,"鞄に本が数冊入っています。
+A few books are in the bag.",かばんにほんがすうさつはいっています
 数える,かぞえる,vt,to count,"数えられないほど人がいた。
-There were more people than I could count."
+There were more people than I could count.",かぞえられないほどひとがいた
 文句,もんく,n,complaint,"
 "
 断る,ことわる,vt,to decline; to refuse,"
@@ -254,7 +254,7 @@ There were more people than I could count."
 方々,かたがた,n,(hon) they; you (plural people),"
 "
 方法,ほうほう,n,method; way; process,"日本語を覚えやすくする方法は知っていますか？
-Do you know a way to make Japanese easy to memorize?"
+Do you know a way to make Japanese easy to memorize?",にほんごをおぼえやすくするほうほうはしっていますか？
 時期,じき,n,time; season,"
 "
 最高,さいこう,"adj-no,adj-na,n",most; highest; best; finest,"
@@ -264,7 +264,7 @@ Do you know a way to make Japanese easy to memorize?"
 条件,じょうけん,n,condition; requirement; prerequisite,"
 "
 栄養,えいよう,"n,adj-no",nutrition,"栄養士
-nutritionist"
+nutritionist",えいようし
 根,ね,n,"root (of a plant, tooth, hair, etc.)","
 "
 検査,けんさ,"n,vs",inspection; examination,"
@@ -274,11 +274,11 @@ nutritionist"
 様子,ようす,n,state; situation; appearance,"
 "
 機嫌,きげん,n | adj-na,mood; spirits | be in a good mood,"機嫌が良い
-to be in a good mood"
+to be in a good mood"きげんがいい
 機能,きのう,"n,vs",function; feature,"
 "
 欠席,けっせき,"n,vs",absence; non-attendance,"お客様を訪問するので、会議は欠席させてください。
-Please let me be absent from the meeting because I will see a customer."
+Please let me be absent from the meeting because I will see a customer.",かいぎはけっせきさせてください
 歌手,かしゅ,n,singer,"
 "
 正直,しょうじき,"n,adj-na,adv",honesty; frankness,"
@@ -982,9 +982,9 @@ to play the drums"
 向かい,むかい,"n,adj-no",facing; across the street,"
 "
 向く,むく,vi,to turn toward; to face; to be suited to,"カメラに向いて。
-Face toward the camera."
+Face toward the camera.",かめらにむいて
 向ける,むける,vt,to turn towards,"席をカメラに向けて。
-Face the seat towards the camera."
+Face the seat towards the camera.",せきをかめらにむけて
 吠える,ほえる,vi,to bark; to howl,"
 "
 否定,ひてい,"n,vs,adj-no",denial; repudiation,"
@@ -1060,7 +1060,7 @@ Face the seat towards the camera."
 地球,ちきゅう,"n,adj-no",the earth; the globe,"
 "
 型,かた,n,mould; template; type; pattern,"型を取る
-to take a mould"
+to take a mould",かたをとる
 ほこり,ほこり,n,dust,"
 "
 城,しろ,n,castle,"
@@ -1316,7 +1316,7 @@ to take a mould"
 強調,きょうちょう,"n,vs",emphasis; highlight,"
 "
 当たる,あたる,vi,to be hit; to strike; to be selected; to win,"賞品が当たる
-to win a prize"
+to win a prize",けいひんがあたる
 当てる,あてる,vt,to hit; to put on; to expose,"
 "
 当時,とうじ,"n-adv,n",at that time; in those days,"
@@ -1714,7 +1714,7 @@ to win a prize"
 法,ほう,"n,n-suf",law; act,"
 "
 泡,あわ,n,bubble; foam; froth,"泡がないとビールは美味しくない。
-Without foam, beer is not delicious."
+Without foam, beer is not delicious.",あわがないとびーるはおいしくない
 波,なみ,n,wave,"
 "
 注目,ちゅうもく,"n,vs",notice; attention,"
@@ -2533,7 +2533,7 @@ n",approximately ～; about ～,"
 閉じる,とじる,"vt,vi",to close; to shut,"
 "
 関する,かんする,vi,to concern; to be related,"予算に関する問題
-the problem related to the budget"
+the problem related to the budget",よさんにかんするもんだい
 関心,かんしん,n,interest; concern,"
 "
 関連,かんれん,"n,adj-no,vs,suf",relation; connection,"
@@ -3047,7 +3047,7 @@ the problem related to the budget"
 偽物,にせもの,"n,adj-no",counterfeit; imitation,"
 "
 充電,じゅうでん,"n,vs",charging (electrically),"スマホを充電した？
-Did you charge your smartphone?"
+Did you charge your smartphone?",すまほをじゅうでんした？
 入金,にゅうきん,"n,vs",deposit; payment,"
 "
 全く,まったく,"adv,adj-no",entirely; completely,"

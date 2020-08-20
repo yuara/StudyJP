@@ -8,4 +8,5 @@ class Voca(models.Model):
     meaning = models.CharField(max_length=256)
     en_example = models.CharField(max_length=256)
     ja_example = models.CharField(max_length=256)
+    example_kana = models.CharField(max_length=256)
     level = models.CharField(max_length=32)

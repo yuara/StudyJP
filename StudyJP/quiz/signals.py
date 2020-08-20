@@ -14,6 +14,7 @@ def create_default_voca(sender, **kwargs):
         for i in range(len(df)):
             example = df.iat[i, 4]
             example = example.split("\n") if example else [None, None]
+            exa_kana = df.iat[i, 5] if df.iat[i, 5] else None
 
             Voca.objects.get_or_create(
                 kanji=df.iat[i, 0],
@@ -22,5 +23,6 @@ def create_default_voca(sender, **kwargs):
                 meaning=df.iat[i, 3],
                 en_example=example[0],
                 ja_example=example[1],
+                example_kana=exa_kana,
                 level=level,
             )
